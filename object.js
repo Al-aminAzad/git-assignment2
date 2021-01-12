@@ -11,3 +11,7 @@ let obj ={
 Object.keys(obj).map(function(country){
     console.log(`The capital of ${country} is= ${obj[country]}`);
 })
+
+//ES6
+
+Object.keys(obj).map((country)=>console.log(`The capital of ${country} is= ${obj[country]}`));
